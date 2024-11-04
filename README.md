@@ -6,14 +6,16 @@ rime_ice keyboard for TRIME on Android.
 
 ## 特点
 
-- dsds
+- 基于官方26键
 
-- dsds
+- 考虑
 
 - 
 
 ## 使用方法
 
-dsdsd
+- 将 **rime_ice.trime.yaml** 文件复制TRIME的安装目录
+
+- 在TRIME中选择启用rime_ice方案，如下图：
 
 ## 功能按键
