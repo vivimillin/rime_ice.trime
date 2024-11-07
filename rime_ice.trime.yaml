@@ -889,7 +889,7 @@ preset_keys:
   SEARCH: {label: 搜索, send: Find}
   SLEEP: {label: 休眠, send: SLEEP}
   # VOICE_ASSIST: {label: 语音, send: VOICE_ASSIST}
-  VOICE_ASSIST: {label: 🎤, send: VOICE_ASSIST}
+  VOICE_ASSIST: {label: 🎤 🎙️, send: VOICE_ASSIST}
   VOLUME_DOWN: {label: 音量-, send: VOLUME_DOWN}
   VOLUME_UP: {label: 音量+, send: VOLUME_UP}
   VOLUME_MUTE: {label: 静音, send: VOLUME_MUTE}
