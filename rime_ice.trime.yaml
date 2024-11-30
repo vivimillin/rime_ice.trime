@@ -13,7 +13,7 @@ style:
   auto_caps: false #自動句首大寫:true|false|ascii
   background_dim_amount: 0.5
   candidate_font: han.ttf #候選字型
-  candidate_padding: 20 #候選項內邊距
+  candidate_padding: 18 #候選項內邊距
   candidate_spacing: 0.5 #候選間距
   candidate_text_size: 22 #候選字號
   candidate_use_cursor: true #高亮候選項
@@ -896,8 +896,8 @@ preset_keys:
   # 編輯
   Shift_L: {label: Shift, send: Shift_L, shift_lock: ascii_long}
   Return: {label: enter_labels, send: Return}
-  Return1: {label: Enter, send: Return }
-  Return2: {label: 回车, send: Return }
+  Return1: {label: Enter, send: Return}
+  Return2: {label: 回车, send: Return}
   Hide: {label: 隐藏, send: BACK}
   BackSpace: {label: ⌫, repeatable: true, send: BackSpace}
   BackSpace1: {label: ' ⌫ ', repeatable: true, send: BackSpace}
