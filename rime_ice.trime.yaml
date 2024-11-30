@@ -1366,21 +1366,17 @@ preset_keyboards:
     - {click: '4'}
     - {click: '5'}
     - {click: '6'}
-    - {click: ':'}
+    - {click: '/'}
     - {click: '*'}
     - {click: '7'}
     - {click: '8'}
     - {click: '9'}
-    - {click: '%'}
-    - {click: '/'}
-    - {click: '±'}
-    - {click: '0'}
     - {click: '.'}
-    - {click: '='}
+    # - {click: '±'}
     - {click: Keyboard_symbols, long_click: liquid_keyboard_clipboard, swipe_up: liquid_keyboard_clipboard}
     - {click: Keyboard_default}
+    - {click: '0'}
     - {click: space}
-    - {click: '#'}
     - {click: Return}
   symbols:
     name: 符號
