@@ -1409,7 +1409,7 @@ preset_keyboards:
     - {click: '0', swipe_down: 'Hide', hint: '↓'}
     - {width: 5}
     - {click: '-'}
-    - {click: '/', label: '、'}
+    - {click: '\', label: '、'}
     - {click: ':', label: '：'}
     - {click: ';', label: '；'}
     - {click: '(', label: '（'}
