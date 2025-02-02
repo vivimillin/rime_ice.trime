@@ -1041,7 +1041,7 @@ preset_keyboards:
     - {click: 'v', long_click: '_', swipe_up: '_'}
     - {click: 'b', long_click: ':', swipe_up: ':'}
     - {click: 'n', long_click: ';', swipe_up: ';'}
-    - {click: 'm', long_click: '/', swipe_up: '/'}
+    - {click: 'm', long_click: '\', swipe_up: '\'}
     - {click: BackSpace, width: 15}
     - {click: Keyboard_symbols, long_click: liquid_keyboard_clipboard, swipe_up: liquid_keyboard_clipboard, width: 15}
     - {click: Keyboard_number, long_click: Henkan, swipe_up: Henkan, width: 12.5}
