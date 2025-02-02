@@ -889,7 +889,7 @@ preset_keys:
   SEARCH: {label: 搜索, send: Find}
   SLEEP: {label: 休眠, send: SLEEP}
   # VOICE_ASSIST: {label: 语音, send: VOICE_ASSIST}
-  VOICE_ASSIST: {label: 🎤, send: VOICE_ASSIST}
+  VOICE_ASSIST: {label: ←🎤→, send: VOICE_ASSIST}
   VOLUME_DOWN: {label: 音量-, send: VOLUME_DOWN}
   VOLUME_UP: {label: 音量+, send: VOLUME_UP}
   VOLUME_MUTE: {label: 静音, send: VOLUME_MUTE}
@@ -1046,7 +1046,7 @@ preset_keyboards:
     - {click: Keyboard_symbols, long_click: liquid_keyboard_clipboard, swipe_up: liquid_keyboard_clipboard, width: 15}
     - {click: Keyboard_number, long_click: Henkan, swipe_up: Henkan, width: 12.5}
     - {click: ',', label: ' ，', long_click: Tab, swipe_up: Tab}
-    - {click: space, long_click: VOICE_ASSIST, width: 25}
+    - {click: space, long_click: VOICE_ASSIST, swipe_left: Left, swipe_right: Right, width: 25}
     - {click: '.', label: ' 。', label_symbol: "↑↓", swipe_up: Up, swipe_down: Down}
     - {click: Mode_switch, long_click: Menu, swipe_up: Menu, width: 12.5}
     - {click: Return, composing: Return1, width: 15}
@@ -1400,7 +1400,7 @@ preset_keyboards:
     key_press_offset_x: 2
     key_press_offset_y: 2
     keys:
-    - {click: '1'}
+    - {click: '1', long_click: F4}
     - {click: '2'}
     - {click: '3'}
     - {click: '4'}
@@ -1433,7 +1433,7 @@ preset_keyboards:
     - {click: Keyboard_default, long_click: liquid_keyboard_clipboard, swipe_up: liquid_keyboard_clipboard, width: 15}
     - {click: Keyboard_number, long_click: Henkan, swipe_up: Henkan, width: 12.5}
     - {click: ',', label: '，', long_click: Tab, swipe_up: Tab}
-    - {click: space, long_click: VOICE_ASSIST, width: 25}
+    - {click: space, long_click: VOICE_ASSIST, swipe_left: Left, swipe_right: Right, width: 25}
     - {click: '.', label: '。', label_symbol: "↑↓", swipe_up: Up, swipe_down: Down}
     - {click: Mode_switch, long_click: Menu, swipe_up: Menu, width: 12.5}
     - {click: Return, composing: Return1, width: 15}
