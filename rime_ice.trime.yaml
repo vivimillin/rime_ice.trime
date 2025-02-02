@@ -1351,6 +1351,8 @@ preset_keyboards:
   number:
     name: 預設數字
     author: "millin modified & osfans <waxaca@163.com>"
+    ascii_mode: 1
+    reset_ascii_mode: true  #显示键盘时重置为ascii_mode指定的状态
     width: 20
     height: 44
     horizontal_gap: 6 #鍵水平間距
@@ -1381,7 +1383,8 @@ preset_keyboards:
   symbols:
     name: 符號
     author: "millin modified & 天真可愛的滿滿"
-    ascii_mode: 1
+    ascii_mode: 0
+    reset_ascii_mode: true  #显示键盘时重置为ascii_mode指定的状态
     columns: 10 #鍵盤列數，超過則自動換行，默認30列
     width: 10
     height: 55
