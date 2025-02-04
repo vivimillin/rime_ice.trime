@@ -936,6 +936,7 @@ preset_keys:
   Mode_switch: {toggle: ascii_mode, send: Mode_switch, states: [ 汉, 英 ]}
   Zenkaku_Hankaku: {toggle: full_shape, send: Mode_switch, states: [ 半角, 全角 ]}
   Henkan: {toggle: simplification, send: Mode_switch, states: [ 繁, 简 ]}
+  HenkanTraditional: {toggle: traditionalization, send: Mode_switch, states: [ 简, 繁 ]}
   Charset_switch: {toggle: extended_charset, send: Mode_switch, states: [ 常用, 拓展 ]}
   Punct_switch: {toggle: ascii_punct, send: Mode_switch, states: [ 。，, ．， ]}
   #切换键盘
@@ -1044,7 +1045,7 @@ preset_keyboards:
     - {click: 'm', long_click: '\', swipe_up: '\'}
     - {click: BackSpace, width: 15}
     - {click: Keyboard_symbols, long_click: liquid_keyboard_clipboard, swipe_up: liquid_keyboard_clipboard, width: 15}
-    - {click: Keyboard_number, long_click: Henkan, swipe_up: Henkan, width: 12.5}
+    - {click: Keyboard_number, long_click: HenkanTraditional, swipe_up: HenkanTraditional, width: 12.5}
     - {click: ',', label: ' ，', long_click: Tab, swipe_up: Tab}
     - {click: space, long_click: VOICE_ASSIST, swipe_left: Left, swipe_right: Right, width: 25}
     - {click: '.', label: ' 。', label_symbol: "↑↓", swipe_up: Up, swipe_down: Down}
@@ -1431,7 +1432,7 @@ preset_keyboards:
     - {click: "'", label: '‘ ’'}
     - {click: BackSpace, width: 15}
     - {click: Keyboard_default, long_click: liquid_keyboard_clipboard, swipe_up: liquid_keyboard_clipboard, width: 15}
-    - {click: Keyboard_number, long_click: Henkan, swipe_up: Henkan, width: 12.5}
+    - {click: Keyboard_number, long_click: HenkanTraditional, swipe_up: HenkanTraditional, width: 12.5}
     - {click: ',', label: '，', long_click: Tab, swipe_up: Tab}
     - {click: space, long_click: VOICE_ASSIST, swipe_left: Left, swipe_right: Right, width: 25}
     - {click: '.', label: '。', label_symbol: "↑↓", swipe_up: Up, swipe_down: Down}
